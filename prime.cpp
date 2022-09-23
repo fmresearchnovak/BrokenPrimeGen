@@ -23,7 +23,7 @@ int main(){
 
 	cout << "This program will generate a prime number greater than n." << endl;
 	cout << "Please enter a value n [2, 50000]: ";
-	int n;
+	unsigned int n;
 	cin >> n;
 	cout << "n: "  << n << endl;
 	if(n < 2 || n > 50000)
